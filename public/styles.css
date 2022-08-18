@@ -1,5 +1,15 @@
+/* it is not a case that you cant manipulate elements directly through the css file 
+but instead of that we will prefer to use the css through the use of the 
+JSX and using naming convections according to the javascript
+ */
+
 .head {
   font-family: sans-serif;
   text-align: center;
   color: red;
 }
+
+/* .image {
+  width: 100px;
+  height: 100px;
+} */
