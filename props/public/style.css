@@ -1,3 +1,8 @@
 .imagee{
     width: 200px;
 }
+.col{
+    
+    padding: 0 5%;
+    display: inline-block;
+}

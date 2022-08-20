@@ -7,7 +7,7 @@ import ReactDOM from "react-dom";
 // so as we can see with all this code is become highly unordered and also very bad to see
 // so we first create the components and later we will persue to do next things 
 ReactDOM.render(
-  <div>
+  <div >
     <h1>My Contacts</h1>
 
     <h2>Beyonce</h2>
