@@ -6,9 +6,7 @@ import emojipedia from "./emojipedia"
 console.log(emojipedia);
 function createBox(eff){
     return (
-    <object.Card
-    key={eff.id} emoji={eff.emoji} name={eff.name} meaning={eff.meaning}/>
-    );
+    <object.Card key={eff.id} emoji={eff.emoji} name={eff.name} meaning={eff.meaning}/>);
     
 }
 ReactDOM.render(
