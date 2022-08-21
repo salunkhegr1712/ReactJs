@@ -16,10 +16,19 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import object from "./comonents/function.jsx"
-
+import notes from './notes.js';
+let addNote=(proc)=>{
+    return (<object.Note
+        key={proc.key}
+        title={proc.title}
+        content={proc.content}
+    />);
+}
+// console.log(notes)
 ReactDOM.render(<div>
     <object.Heading></object.Heading>
+    
+    {notes.map(addNote)}
     <object.Foot></object.Foot>
-    <object.Note></object.Note>
 </div>
 ,document.getElementById("root"));
