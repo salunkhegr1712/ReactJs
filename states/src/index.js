@@ -4,7 +4,9 @@ import ReactDOM from "react-dom"
 // now import the component from the compoent folder 
 // import Btt from "./components/button"
 // import App from "./components/App"
-import Time from "./components/Time"
+// import Time from "./components/Time"
+import Deconstruction from "./components/destructure"
+
 // ReactDOM is basic function which should be imported from the react dom and
 // with use of the ReactDOM function we can be able to render the html from javascript File
 // to the screen and it is very helpfull and it is efficient
@@ -14,6 +16,6 @@ import Time from "./components/Time"
 // lets create function which will be called on the command of the event listener and it
 // will manipulate data accordingly
 
-ReactDOM.render(<Time/>,document.getElementById("root"));
+ReactDOM.render(<Deconstruction/>,document.getElementById("root"));
 // always keep convection that component should start with Capital letter so that 
 // we can differntiate it from html tags 
