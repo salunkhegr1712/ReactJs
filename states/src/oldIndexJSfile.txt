@@ -1,0 +1,22 @@
+// importing the basic function from react to the file 
+import React from "react";
+import ReactDOM from "react-dom"
+// now import the component from the compoent folder 
+// import Btt from "./components/button"
+// import App from "./components/App"
+// import Time from "./components/Time"
+import Deconstruction from "./components/destructure"
+import Incremental from "./components/incremental"
+
+// ReactDOM is basic function which should be imported from the react dom and
+// with use of the ReactDOM function we can be able to render the html from javascript File
+// to the screen and it is very helpfull and it is efficient
+
+// js use bable and the jsx which are the main features of the react 
+
+// lets create function which will be called on the command of the event listener and it
+// will manipulate data accordingly
+
+ReactDOM.render(<Incremental/>,document.getElementById("root"));
+// always keep convection that component should start with Capital letter so that 
+// we can differntiate it from html tags 

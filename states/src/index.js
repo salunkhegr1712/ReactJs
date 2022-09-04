@@ -1,21 +1,12 @@
-// importing the basic function from react to the file 
+// importing basic function which we need in order to run this code 
 import React from "react";
-import ReactDOM from "react-dom"
-// now import the component from the compoent folder 
-// import Btt from "./components/button"
-// import App from "./components/App"
-// import Time from "./components/Time"
-import Deconstruction from "./components/destructure"
+import Reactdom from "react-dom"
+import Login from "./components/Login"
 
-// ReactDOM is basic function which should be imported from the react dom and
-// with use of the ReactDOM function we can be able to render the html from javascript File
-// to the screen and it is very helpfull and it is efficient
+// so as a whole now as we know how can we rerender our page and grab some output exactly like that we can do the same 
 
-// js use bable and the jsx which are the main features of the react 
+// render the page with component called Login 
+Reactdom.render(<Login/>,document.getElementById("root"))
 
-// lets create function which will be called on the command of the event listener and it
-// will manipulate data accordingly
-
-ReactDOM.render(<Deconstruction/>,document.getElementById("root"));
-// always keep convection that component should start with Capital letter so that 
-// we can differntiate it from html tags 
+// now we have see how can we add the event listeners to our code and how can we use them to make
+// our page interactive 
