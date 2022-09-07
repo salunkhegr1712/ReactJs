@@ -28,11 +28,13 @@ function Form(props){
 
     }
     // function which only get invoked if you click the mouse key on the button 
-    function changeName(){
+    function changeName(event){
             console.log("clicked")
             // n1=name
             stateFunction(name)
                 // stateFunction(name)
+
+            event.preventDefault();
     }
     return(
         <div className="container">
@@ -42,6 +44,11 @@ function Form(props){
         content inside the input get changed  */}
         {/* on change will send call to the function and we can manupulate next steps inside the change function  */}
         
+        {/* as with simple form the react form get realoaded automatically which is error in your case as you wnat
+        a static result on your side  */}
+        {/* so every attribute has own property and form has peoperty to reload page such that new page will shown 
+         */}
+        <form onSubmit={changeName}>
         <input 
         type="text"
         placeholder="Enter Your Name" 
@@ -51,7 +58,9 @@ function Form(props){
         // value={name}
         
        />
-        <button onClick={changeName}> Submit</button>
+        <button type= "submit"> Submit</button>
+        </form>
+        
         </div>
         
 
