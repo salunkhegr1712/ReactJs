@@ -1,4 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-ReactDOM.render(<h1>hello</h1>,document.getElementById("root"))
+import Abra from './new';
+ReactDOM.render((
+    <div>
+        <Abra  name="Ghansham" des="im Ghansham i study in"></Abra>
+    </div>
+
+)
+,document.getElementById("root"))
 
